@@ -1,114 +1,72 @@
 import { startTransition, useEffect, useState } from "react";
-import Navbar from "./components/Navbar";
-import CallOfDutyCaseStudyPage from "./pages/CallOfDutyCaseStudyPage";
-import CallOfDutyHubPage from "./pages/CallOfDutyHubPage";
-import Home from "./pages/Home";
-import ProjectDetail from "./pages/ProjectDetail";
-import { getProjectBySlug } from "./data/projects";
-import { siteMeta } from "./data/siteContent";
+import ReplicaFooter from "./components/ReplicaFooter";
+import ReplicaHeader from "./components/ReplicaHeader";
+import { getReferenceCaseStudy } from "./data/referenceContent";
+import ReferenceAbout from "./pages/ReferenceAbout";
+import ReferenceCaseStudy from "./pages/ReferenceCaseStudy";
+import ReferenceHome from "./pages/ReferenceHome";
+import ReferenceMentoring from "./pages/ReferenceMentoring";
+import ReferenceWork from "./pages/ReferenceWork";
 
-// The site uses a tiny custom router because the route surface is intentionally small.
+const pageRoutes = {
+  "/": { component: ReferenceHome, title: "Karol Binkowski — Software Engineer & Builder" },
+  "/work": { component: ReferenceWork, title: "Work — Karol Binkowski" },
+  "/about": { component: ReferenceAbout, title: "About — Karol Binkowski" },
+  "/mentoring": { component: ReferenceMentoring, title: "Mentoring — Karol Binkowski" },
+};
+
+const caseStudyRoutes = ["/work/quick-base64", "/work/clapping-api"];
+
 function readLocation() {
-  return {
-    pathname: window.location.pathname,
-    hash: window.location.hash,
-  };
+  return { pathname: window.location.pathname, hash: window.location.hash };
 }
 
-function normalizePathname(pathname) {
+function normalizePath(pathname) {
   const trimmed = pathname.replace(/\/+$/, "");
   return trimmed || "/";
-}
-
-function resolveProject(pathname) {
-  const normalizedPath = normalizePathname(pathname);
-
-  if (!normalizedPath.startsWith("/projects/")) {
-    return null;
-  }
-
-  return getProjectBySlug(normalizedPath.replace("/projects/", ""));
 }
 
 export default function App() {
   const [location, setLocation] = useState(readLocation);
 
   useEffect(() => {
-    const syncLocation = () => {
-      startTransition(() => {
-        setLocation(readLocation());
-      });
-    };
-
-    window.addEventListener("popstate", syncLocation);
-    window.addEventListener("app:navigate", syncLocation);
-
+    const sync = () => startTransition(() => setLocation(readLocation()));
+    window.addEventListener("popstate", sync);
+    window.addEventListener("app:navigate", sync);
     return () => {
-      window.removeEventListener("popstate", syncLocation);
-      window.removeEventListener("app:navigate", syncLocation);
+      window.removeEventListener("popstate", sync);
+      window.removeEventListener("app:navigate", sync);
     };
   }, []);
 
-  const navigate = (to, options = {}) => {
-    const method = options.replace ? "replaceState" : "pushState";
-    window.history[method]({}, "", to);
+  const navigate = (to) => {
+    window.history.pushState({}, "", to);
     window.dispatchEvent(new Event("app:navigate"));
   };
 
-  const normalizedPath = normalizePathname(location.pathname);
-  const project = resolveProject(location.pathname);
-  const pageTitle = project
-    ? `${project.title} | ${siteMeta.owner}`
-    : siteMeta.title;
+  const pathname = normalizePath(location.pathname);
+  const route = pageRoutes[pathname];
+  const studySlug = caseStudyRoutes.includes(pathname) ? pathname.replace("/work/", "") : null;
+  const study = studySlug ? getReferenceCaseStudy(studySlug) : null;
+  const Page = route?.component;
 
   useEffect(() => {
-    document.title = pageTitle;
-
-    // Hash links drive the one-page sections, with reduced-motion respected for comfort.
-    if (location.hash) {
-      requestAnimationFrame(() => {
-        const target = document.querySelector(location.hash);
-        const reduceMotion = document.documentElement.dataset.motionReduced === "true";
-
-        if (target) {
-          target.scrollIntoView({
-            behavior: reduceMotion ? "auto" : "smooth",
-            block: "start",
-          });
-          return;
-        }
-
-        window.scrollTo({ top: 0, behavior: "auto" });
-      });
-
-      return;
-    }
-
-    window.scrollTo({ top: 0, behavior: "auto" });
-  }, [location.hash, location.pathname, pageTitle]);
-
-  const isHome = normalizedPath === "/";
-  const isProjectView = normalizedPath.startsWith("/projects/");
+    document.title = route?.title ?? (study ? `${study.title} — Karol Binkowski` : "Page Not Found");
+    requestAnimationFrame(() => {
+      if (location.hash) document.querySelector(location.hash)?.scrollIntoView({ behavior: "smooth" });
+      else window.scrollTo({ top: 0, behavior: "auto" });
+    });
+  }, [location.hash, pathname, route?.title, study]);
 
   return (
     <div className="app-shell">
-      <div className="app-shell__backdrop" />
-      <Navbar
-        isProjectView={isProjectView}
-        location={location}
-        navigate={navigate}
-      />
-      <main className="app-main">
-        {isHome ? (
-          <Home navigate={navigate} />
-        ) : project?.pageType === "call-of-duty-hub" ? (
-          <CallOfDutyHubPage navigate={navigate} project={project} />
-        ) : project?.pageType === "call-of-duty-case-study" ? (
-          <CallOfDutyCaseStudyPage navigate={navigate} project={project} />
-        ) : (
-          <ProjectDetail navigate={navigate} project={project} />
+      <ReplicaHeader navigate={navigate} pathname={pathname} />
+      <main id="main-content">
+        {Page ? <Page navigate={navigate} /> : study ? <ReferenceCaseStudy study={study} navigate={navigate} /> : (
+          <section className="missing-page shell"><p className="kicker"><span />404</p><h1>That Page Isn't Here.</h1><button type="button" onClick={() => navigate("/")}>Return Home →</button></section>
         )}
       </main>
+      <ReplicaFooter navigate={navigate} />
     </div>
   );
 }
