@@ -9,7 +9,7 @@ const requiredFiles = [
   "src/pages/ReferenceHome.jsx",
   "src/pages/ReferenceWork.jsx",
   "src/pages/ReferenceAbout.jsx",
-  "src/pages/ReferenceMentoring.jsx",
+  "src/pages/ReferenceServices.jsx",
   "src/pages/ReferenceCaseStudy.jsx",
   "src/styles/replica.css",
 ];
@@ -35,9 +35,9 @@ const app = fs.readFileSync("src/App.jsx", "utf8");
 for (const route of [
   "/work",
   "/about",
-  "/mentoring",
-  "/work/quick-base64",
-  "/work/clapping-api",
+  "/services",
+  "/work/call-of-duty",
+  "/work/gr1m01re",
 ]) {
   if (!app.includes(route)) {
     throw new Error(`Missing route: ${route}`);

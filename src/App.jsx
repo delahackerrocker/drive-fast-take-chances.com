@@ -5,17 +5,17 @@ import { getReferenceCaseStudy } from "./data/referenceContent";
 import ReferenceAbout from "./pages/ReferenceAbout";
 import ReferenceCaseStudy from "./pages/ReferenceCaseStudy";
 import ReferenceHome from "./pages/ReferenceHome";
-import ReferenceMentoring from "./pages/ReferenceMentoring";
+import ReferenceServices from "./pages/ReferenceServices";
 import ReferenceWork from "./pages/ReferenceWork";
 
 const pageRoutes = {
-  "/": { component: ReferenceHome, title: "Karol Binkowski — Software Engineer & Builder" },
-  "/work": { component: ReferenceWork, title: "Work — Karol Binkowski" },
-  "/about": { component: ReferenceAbout, title: "About — Karol Binkowski" },
-  "/mentoring": { component: ReferenceMentoring, title: "Mentoring — Karol Binkowski" },
+  "/": { component: ReferenceHome, title: "Dela — UX Designer, Game Developer, and Agentic Builder" },
+  "/work": { component: ReferenceWork, title: "Work — Dela" },
+  "/about": { component: ReferenceAbout, title: "About — Dela" },
+  "/services": { component: ReferenceServices, title: "Services — Dela" },
 };
 
-const caseStudyRoutes = ["/work/quick-base64", "/work/clapping-api"];
+const caseStudyRoutes = ["/work/call-of-duty", "/work/gr1m01re"];
 
 function readLocation() {
   return { pathname: window.location.pathname, hash: window.location.hash };
@@ -51,7 +51,7 @@ export default function App() {
   const Page = route?.component;
 
   useEffect(() => {
-    document.title = route?.title ?? (study ? `${study.title} — Karol Binkowski` : "Page Not Found");
+    document.title = route?.title ?? (study ? `${study.title} — Dela` : "Page Not Found");
     requestAnimationFrame(() => {
       if (location.hash) document.querySelector(location.hash)?.scrollIntoView({ behavior: "smooth" });
       else window.scrollTo({ top: 0, behavior: "auto" });

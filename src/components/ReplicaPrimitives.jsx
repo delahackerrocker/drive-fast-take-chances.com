@@ -73,7 +73,7 @@ export function CaseStudyCard({ study, navigate }) {
       <p className="case-card__meta">Case Study {study.index} · {study.meta}</p>
       <h3>{study.title}</h3>
       <p>{study.summary}</p>
-      <div><strong>{study.metric}</strong><span>Read the Case →</span></div>
+      <div><strong>{study.metric}</strong><span>Read the Full Case →</span></div>
     </SiteLink>
   );
 }
@@ -81,28 +81,34 @@ export function CaseStudyCard({ study, navigate }) {
 export function WorkRow({ item }) {
   return (
     <article className="work-row">
-      <div><h3>{item.title}</h3><p>{item.summary}</p></div>
+      <div><h3>{item.title}</h3><p>{item.summary}</p>{item.outcome ? <small className="work-row__outcome">{item.outcome}</small> : null}</div>
       <ul className="tag-list">{item.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul>
     </article>
   );
 }
 
 export function ProductCard({ product }) {
-  return (
-    <a className={`product-card product-card--${product.tone}`} href={product.href} target="_blank" rel="noreferrer">
+  const content = (
+    <>
       <span className="product-card__status">{product.status}</span>
       <h3>{product.title}</h3>
       <p>{product.summary}</p>
       <ul className="tag-list">{product.tags.map((tag) => <li key={tag}>{tag}</li>)}</ul>
-      <strong>Visit →</strong>
-    </a>
+      <strong>{product.cta}</strong>
+    </>
+  );
+
+  return product.href ? (
+    <a className={`product-card product-card--${product.tone}`} href={product.href} target="_blank" rel="noreferrer">{content}</a>
+  ) : (
+    <article className={`product-card product-card--${product.tone}`}>{content}</article>
   );
 }
 
 export function ProfileBlock({ profile }) {
   return (
     <div className="profile-block">
-      <div className="profile-block__portrait" aria-label="Portrait placeholder"><span>KB</span></div>
+      <div className="profile-block__portrait" aria-label="Portrait placeholder"><span>D</span></div>
       <div><Kicker>{profile.eyebrow}</Kicker><h2>{profile.title}</h2><p className="lede">{profile.body}</p></div>
     </div>
   );
@@ -124,10 +130,10 @@ export function StackGrid({ groups }) {
   ))}</div>;
 }
 
-export function PageCta({ eyebrow = "Let's Talk", title, body, cta, navigate }) {
+export function PageCta({ eyebrow = "Let’s Talk", title, body, cta, secondaryCta, navigate }) {
   return (
     <section className="page-cta">
-      <div className="shell"><SectionIntro eyebrow={eyebrow} title={title} intro={body} /><HardButton href={cta.href} navigate={navigate}>{cta.label}</HardButton></div>
+      <div className="shell"><SectionIntro eyebrow={eyebrow} title={title} intro={body} /><div className="button-row"><HardButton href={cta.href} navigate={navigate}>{cta.label}</HardButton>{secondaryCta ? <HardButton href={secondaryCta.href} navigate={navigate} tone="plain">{secondaryCta.label}</HardButton> : null}</div></div>
     </section>
   );
 }

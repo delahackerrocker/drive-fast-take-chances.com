@@ -128,7 +128,7 @@ Expected: FAIL with `Missing replica files`.
 ```js
 // src/data/referenceContent.js
 export const referenceSite = {
-  brand: { initials: "KB", name: "Karol Binkowski" },
+  brand: { initials: "D", name: "Dela" },
   navigation: [
     { label: "Work", href: "/work" },
     { label: "About", href: "/about" },
@@ -221,7 +221,7 @@ export default function SiteLink({ href, navigate, children, ...props }) {
 
 - [ ] **Step 2: Implement the reference-style header**
 
-Build the square `KB` mark, brand name, Work/About/Mentoring links, hard-shadow CTA, and an accessible mobile menu. Use `aria-expanded`, `aria-controls`, Escape-to-close, route-change close, and focus-visible behavior. Writing must not appear.
+Build the square `ST` mark, brand name, Work/About/Mentoring links, hard-shadow CTA, and an accessible mobile menu. Use `aria-expanded`, `aria-controls`, Escape-to-close, route-change close, and focus-visible behavior. Writing must not appear.
 
 - [ ] **Step 3: Implement the shared footer**
 

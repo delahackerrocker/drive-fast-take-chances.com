@@ -2,7 +2,7 @@
 
 ## Objective
 
-Rebuild `practitioner.digital` as a high-fidelity React/Vite reproduction of the public Karol Binkowski portfolio site. The replica is the first milestone and establishes a visually exact baseline before the site is progressively rewritten with Dela's identity, experience, and project content.
+Rebuild `practitioner.digital` as a high-fidelity React/Vite portfolio reproduction. The replica is the first milestone and establishes a visually exact baseline before the site is progressively rewritten with Dela's identity, experience, and project content.
 
 The rebuilt site must omit the Writing page, all Writing navigation links, and the fixed Awwwards widget. It must preserve the current portfolio material in the repository while the new presentation system is introduced.
 
@@ -170,4 +170,3 @@ The replica milestone is complete when:
 - Existing portfolio content and media remain preserved in the repository.
 - Content and presentation are separated well enough for the planned Dela-content replacement passes.
 - Validation results and any environment limitations are reported accurately.
-
