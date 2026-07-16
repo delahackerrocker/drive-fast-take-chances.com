@@ -13,7 +13,7 @@ export default function ReplicaFooter({ navigate }) {
     <footer className="site-footer">
       <div className="site-footer__lead shell">
         <div>
-          <p className="footer-brand">Dela</p>
+          <p className="footer-brand">Steven de la Torre</p>
           <p>UX designer, game developer, and agentic builder. I turn ambiguous interactive ideas into things people can use, play, and understand.</p>
         </div>
         <HardButton href={referenceSite.primaryCta.href} navigate={navigate}>Book a 30-Min Project Call →</HardButton>
@@ -42,7 +42,7 @@ export default function ReplicaFooter({ navigate }) {
       </div>
 
       <div className="site-footer__bottom shell">
-        <span>Dela · Columbus, Ohio · Remote · © 2026</span>
+        <span>Steven de la Torre · Columbus, Ohio · Remote · © 2026</span>
         <button type="button" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Back to Top ↑</button>
       </div>
     </footer>

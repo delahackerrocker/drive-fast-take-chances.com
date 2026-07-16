@@ -1,5 +1,5 @@
 export const referenceSite = {
-  brand: { initials: "D", name: "Dela" },
+  brand: { initials: "SD", name: "Steven de la Torre" },
   navigation: [
     { label: "Work", href: "/work" },
     { label: "About", href: "/about" },
@@ -103,7 +103,7 @@ export const homePage = {
   products,
   profile: {
     eyebrow: "Who You’d Be Working With",
-    title: "I’m Dela — UX Designer, Game Developer, and Agentic Builder.",
+    title: "I’m Steven de la Torre — UX Designer, Game Developer, and Agentic Builder.",
     body: "Based in Columbus, Ohio, I spent years designing player-facing systems for Call of Duty and previously shipped immersive work for Google, the NBA, and the U.S. Air Force. Today I build an indie tactical RPG in Unity, web products with clients and partners, and AI-assisted workflows. I’m at my best when the brief is messy, disciplines overlap, and the experience needs to make sense — not merely function.",
   },
   process,
@@ -120,7 +120,7 @@ export const workPage = {
 export const aboutPage = {
   eyebrow: "About",
   title: "I Turn Ambiguous Interactive Ideas Into Working Experiences.",
-  intro: "I’m Dela — a UX designer, game developer, and agentic builder based in Columbus, Ohio.",
+  intro: "I’m Steven de la Torre — a UX designer, game developer, and agentic builder based in Columbus, Ohio.",
   shortVersion: [
     "I spent years designing player-facing systems for Call of Duty and previously shipped immersive work for organizations including Google, the NBA, and the U.S. Air Force.",
     "Today I work across design and engineering: building an indie tactical RPG in Unity, developing web products, and creating AI-assisted workflows that preserve the reason behind the work.",

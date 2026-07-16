@@ -5,7 +5,7 @@ export default function ReferenceAbout({ navigate }) {
   return (
     <>
       <section className="about-hero shell">
-        <div className="about-hero__portrait" aria-label="Portrait placeholder"><span>D</span></div>
+        <div className="about-hero__portrait" aria-label="Portrait placeholder"><span>SD</span></div>
         <SectionIntro eyebrow={aboutPage.eyebrow} title={aboutPage.title} intro={aboutPage.intro} as="h1" />
       </section>
       <section className="section prose-section shell">

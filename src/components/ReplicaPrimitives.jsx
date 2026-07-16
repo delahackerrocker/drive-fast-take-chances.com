@@ -108,7 +108,7 @@ export function ProductCard({ product }) {
 export function ProfileBlock({ profile }) {
   return (
     <div className="profile-block">
-      <div className="profile-block__portrait" aria-label="Portrait placeholder"><span>D</span></div>
+      <div className="profile-block__portrait" aria-label="Portrait placeholder"><span>SD</span></div>
       <div><Kicker>{profile.eyebrow}</Kicker><h2>{profile.title}</h2><p className="lede">{profile.body}</p></div>
     </div>
   );

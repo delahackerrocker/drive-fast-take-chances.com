@@ -69,7 +69,7 @@ const portfolioProjects = [
       "UI and Embodiment",
     ],
     context:
-      "The legacy material presents Rebel Future as Dela's own game universe, with documentation spanning characters, world-building, gameplay direction, and supporting prototypes.",
+      "The legacy material presents Rebel Future as Steven de la Torre's own game universe, with documentation spanning characters, world-building, gameplay direction, and supporting prototypes.",
     challenge: [
       "Give one original universe a coherent identity across gameplay concepts, interface language, motion, world-building, and teaser material.",
       "Use smaller artifacts and demos to test interaction models and embodiment without losing the larger project family.",
@@ -220,7 +220,7 @@ const portfolioProjects = [
       "Directed and Developed",
     ],
     context:
-      "The legacy portfolio frames this as directed and developed by Dela, making it a useful supporting case study beneath the broader Rebel Future umbrella.",
+      "The legacy portfolio frames this as directed and developed by Steven de la Torre, making it a useful supporting case study beneath the broader Rebel Future umbrella.",
     challenge: [
       "Show a specific UI artifact from an original IP without losing the larger project family around it.",
       "Keep the entry concrete enough to show interface ownership while leaving room for fuller screenshots and flow notes.",
@@ -267,7 +267,7 @@ const portfolioProjects = [
       "Security-Conscious Prototype Data",
     ],
     context:
-      "The public source material describes Dela prototyping UI in Unity, then contributing on the broader shipping team for the product.",
+      "The public source material describes Steven de la Torre prototyping UI in Unity, then contributing on the broader shipping team for the product.",
     challenge: [
       "Make complex intelligence data readable across tablets, VR headsets, globe views, and network-like structures.",
       "Prototype enough interaction clarity to support expert workflows while using safe representative data.",
@@ -352,7 +352,7 @@ const portfolioProjects = [
     tagline:
       "A learning game app showing UI/UX and development ownership for a younger audience.",
     summary:
-      "An educational game app where Dela handled UI/UX and principal development, showing end-to-end ownership in a lighter product category.",
+      "An educational game app where Steven de la Torre handled UI/UX and principal development, showing end-to-end ownership in a lighter product category.",
     role: "UI/UX and Principal Development",
     projectType: "Learning Game App for Kids",
     timeframe: "Educational Game Project",
@@ -362,7 +362,7 @@ const portfolioProjects = [
       "Kid-Friendly Interaction",
     ],
     context:
-      "The public writeup is short but explicit about Dela's role across both experience design and development.",
+      "The public writeup is short but explicit about Steven de la Torre's role across both experience design and development.",
     challenge: [
       "Create playful, readable interaction for younger users while keeping tasks clear.",
       "Build a product that works for a very different audience than the rest of the game and tool work.",

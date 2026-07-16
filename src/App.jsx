@@ -9,10 +9,10 @@ import ReferenceServices from "./pages/ReferenceServices";
 import ReferenceWork from "./pages/ReferenceWork";
 
 const pageRoutes = {
-  "/": { component: ReferenceHome, title: "Dela — UX Designer, Game Developer, and Agentic Builder" },
-  "/work": { component: ReferenceWork, title: "Work — Dela" },
-  "/about": { component: ReferenceAbout, title: "About — Dela" },
-  "/services": { component: ReferenceServices, title: "Services — Dela" },
+  "/": { component: ReferenceHome, title: "Steven de la Torre — UX Designer, Game Developer, and Agentic Builder" },
+  "/work": { component: ReferenceWork, title: "Work — Steven de la Torre" },
+  "/about": { component: ReferenceAbout, title: "About — Steven de la Torre" },
+  "/services": { component: ReferenceServices, title: "Services — Steven de la Torre" },
 };
 
 const caseStudyRoutes = ["/work/call-of-duty", "/work/gr1m01re"];
@@ -51,7 +51,7 @@ export default function App() {
   const Page = route?.component;
 
   useEffect(() => {
-    document.title = route?.title ?? (study ? `${study.title} — Dela` : "Page Not Found");
+    document.title = route?.title ?? (study ? `${study.title} — Steven de la Torre` : "Page Not Found");
     requestAnimationFrame(() => {
       if (location.hash) document.querySelector(location.hash)?.scrollIntoView({ behavior: "smooth" });
       else window.scrollTo({ top: 0, behavior: "auto" });

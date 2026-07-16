@@ -373,7 +373,7 @@ export const callOfDutyHub = {
   tagline:
     "Five shipped case studies across extraction UX, interaction feedback, visual systems, social flow, and combat communication.",
   summary:
-    "Across Black Ops 6, Vanguard, MW2, MW3, and Warzone, Dela shipped UI/UX work spanning feature design, visual systems, documentation, and implementation support for franchise-scale teams.",
+    "Across Black Ops 6, Vanguard, MW2, MW3, and Warzone, Steven de la Torre shipped UI/UX work spanning feature design, visual systems, documentation, and implementation support for franchise-scale teams.",
   role: "UI/UX Technical Designer",
   projectType: "AAA Franchise UI/UX",
   timeframe: "Black Ops 6, Vanguard, MW2, MW3, and Warzone",

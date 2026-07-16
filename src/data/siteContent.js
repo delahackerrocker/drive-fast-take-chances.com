@@ -1,7 +1,7 @@
 // Site-level copy stays here so the presentation components stay mostly layout-only.
 export const siteMeta = {
   title: "Practitioner.Digital",
-  owner: "Dela",
+  owner: "Steven de la Torre",
   brand: "Practitioner.Digital",
 };
 
@@ -15,7 +15,7 @@ export const navigationItems = [
 export const heroContent = {
   title: "Shipped Game UI/UX, XR Product Work, and Interactive Systems.",
   intro:
-    "Dela designs and builds player-facing interfaces, product workflows, and prototypes across AAA games, immersive tools, and interactive experiences.",
+    "Steven de la Torre designs and builds player-facing interfaces, product workflows, and prototypes across AAA games, immersive tools, and interactive experiences.",
   positioning:
     "The portfolio includes shipped Call of Duty work, XR product design, design systems, prototyping, and implementation support for teams including Google, the NBA, and the U.S. Air Force.",
   primaryAction: {
@@ -73,7 +73,7 @@ export const experienceContent = {
   eyebrow: "Broader Practice",
   title: "Game UI/UX, XR Tools, and Production Prototypes.",
   intro:
-    "Dela designs interfaces for high-context systems: live game flows, immersive product surfaces, desktop tools, and prototypes where state, feedback, and task clarity matter.",
+    "Steven de la Torre designs interfaces for high-context systems: live game flows, immersive product surfaces, desktop tools, and prototypes where state, feedback, and task clarity matter.",
   pillars: [
     {
       title: "Franchise UI/UX Systems",
