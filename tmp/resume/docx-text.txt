@@ -1,0 +1,82 @@
+STEVEN DE LA TORRE
+Systems Designer · Software Developer · UX & Interactive Designer
+Columbus, OH
+  ·  
+(614) 802-7774
+  ·  
+SteveDeLaTorre@gmail.com
+practitioner.digital
+  ·  
+linkedin.com/in/delahackerrocker
+PROFESSIONAL SUMMARY
+Multidisciplinary systems designer, software developer, and UX practitioner with more than 20 years of experience building games, interactive products, production tools, and emerging-technology experiences. Background spans AAA development on Call of Duty, licensed console and mobile titles, Unity and Unreal development, VR/AR/MR, branded interactive work, and internal tools that have saved teams thousands of production hours. Comfortable moving across code, gameplay systems, interface design, visual development, prototyping, testing, and cross-disciplinary leadership.
+CORE CAPABILITIES
+Systems Design · Gameplay Design · Technical Design · Software Development · UI/UX Design · Interaction Design · Prototyping · Visual Design · Game Development · Tool Development · Spatial Design · Mixed Reality · Accessibility · Playtesting · Cross-Disciplinary Leadership · AI-Assisted Development and Evaluation
+PROFESSIONAL EXPERIENCE
+IMPREZARIO ENTERTAINMENT — Principal Gameplay Designer
+2024–Present | Columbus, OH
+Unity · Unreal Engine · C# · C++ · Gameplay Systems · UX
+Lead gameplay and technical design for licensed Charlie Brown mobile and How to Train Your Dragon console experiences, connecting gameplay systems, interface behavior, visual feedback, and narrative goals.
+Implement gameplay mechanics and scalable systems in Unity C# and Unreal C++, debug features, improve performance, and build high-fidelity prototypes and production features.
+Manage and mentor a cross-disciplinary team of approximately ten developers, designers, and artists while helping define the technology stack, production approach, milestones, and feature priorities.
+Direct demos, playtests, milestone reviews, and stakeholder presentations, translating player feedback and creative direction into actionable design and engineering work.
+ACTIVISION BLIZZARD / RAVEN SOFTWARE — UX Technical Designer
+2020–2024 | Columbus, OH
+Call of Duty: Warzone · Call of Duty: Black Ops 6 · Lua · Python · Figma · Photoshop
+Designed and implemented player-facing systems for Call of Duty: Warzone and Call of Duty: Black Ops 6 as a hybrid designer, developer, and visual problem-solver.
+Built modular UI systems in proprietary Call of Duty technology using Lua, enabling faster iteration and greater consistency across complex gameplay contexts.
+Created Python production tools that reduced repetitive UI work and saved thousands of development hours across the life of the systems.
+Produced wireframes, specifications, prototypes, documentation, and implementation-ready assets while partnering with engineers, artists, designers, production teams, and stakeholders to deliver polished AAA-scale features.
+FREELANCE — Unity UX Developer / Interactive Systems Designer
+2015–2020 | Remote
+Unity · C# · VR · AR · UI/UX · Data Visualization
+Led the redesign and development of a VR teaching platform for nurses and EMTs, reshaping the experience and directing Unity and full-stack developers.
+Designed and built a multi-view AR experience for NBA League Pass on Magic Leap, supporting up to three live games with contextual statistics and comparisons.
+Created the mobile VR games Robot Resurrection and The Guardian: Killing Zone across gameplay code, interaction design, visual assets, level design, sound, and production.
+Developed VR sports prototypes, a Farmers Insurance employee-training application featured by Forbes, and a VR data-visualization tool for United States Air Force analysts.
+PROFESSIONAL EXPERIENCE — CONTINUED
+FREELANCE — Mixed Reality Developer / Designer
+2015–2020 | Los Angeles, CA
+Unity · AR · VR · Real-Time Compositing · Interactive Production
+Built real-time compositing tools, green-screen spaces, camera systems, and 4K production workflows for Visionary VR's Mindshow commercial.
+Developed Android AR applications for Google Project Tango, including Space Sketcher and the GDC-demonstrated game Cowpocalypse.
+Explored spatial interfaces and mixed-reality production through work covered by Gizmodo and other technology publications.
+SABERTOOTH — Senior Interactive Developer / UI Designer
+2009–2012 | Venice, CA
+Unity · C# · Flash · Flex · PHP · UI/UX
+Led multidisciplinary teams building mobile games, websites, kiosks, applications, and branded experiences for clients including Ford, Warner Bros., Sony, Hyundai, Kaiser Permanente, and UFC.
+Designed and developed the award-winning Ford Mustang Configurator and multiple Unity C# mobile games connected to Curious George, Animal Planet, Snow White and the Huntsman, Flavor Monsters, Sin City, and Monsterology.
+Created interface systems, motion behavior, visual feedback, and visual designs while contributing directly to technical implementation.
+YAHOO! — Senior Flash Game Developer / UI Designer
+2007–2009 | Santa Monica, CA
+ActionScript 3 · Flash · Flex · Game Design · UI
+Designed and developed browser games and gamified interactions for Yahoo Games, improving clarity and consistency across multiple Yahoo content areas.
+WARNER BROS. ONLINE — Interactive Developer / Designer
+2005–2007 | Burbank, CA
+ActionScript · Flash · Flex · Interactive Design
+Built interactive web experiences for film and television properties and created the Toonify Engine, an early avatar-personalization and branded-merchandise system.
+SELECTED INDEPENDENT WORK
+PRACT1T10N3R / GR1M01RE — Creator · Systems Designer · Unity Developer
+Design and develop an original tactical action RPG in Unity, spanning overhead and over-the-shoulder combat, targeting, firearms, melee, magic, character systems, procedural city tools, accessibility, and immersive hacking.
+Own systems design, gameplay code, UI/UX, world design, technical-art workflows, prototyping, testing, documentation, and production planning.
+Use AI-assisted development for research, planning, documentation, debugging, code review, system evaluation, and rapid iteration while retaining human creative direction and final judgment.
+SKILLS
+Systems and Design:
+ Systems design, gameplay design, technical design, UI/UX, interaction design, information architecture, wireframing, prototyping, accessibility, playtesting, data visualization, level design, spatial interfaces
+Programming:
+ C#, C++, Python, Lua; professional experience with Java, JavaScript, ActionScript 2/3, CSS, PHP, and MaxScript
+Engines and Technology:
+ Unity, Unreal Engine, proprietary Call of Duty engines, VR, AR, MR, mobile, console, and interactive web development
+Art and Production:
+ Photoshop, Figma, Illustrator, After Effects, 3ds Max, low-poly modeling, texturing, motion design, video capture/editing, Git, Perforce, Jira, Agile, Scrum, Visual Studio
+AI-Assisted Work:
+ Software development, generated-code and documentation evaluation, rubric-based review, interface and visual critique, prompt refinement, constraint definition, and human-in-the-loop judgment
+AWARDS AND RECOGNITION
+Best Web Application — Flash Forward, 2004 · Webby Nomination — Epson Microsite · FWA Site of the Day — Four-time recipient · FWA Site of the Month — Two-time recipient
+EDUCATION AND CERTIFICATIONS
+Mt Sierra College
+ — Vocational Studies · CompTIA A+ · Novell Certification · MCSD
+CRE8 Music Academy
+ — Music Production Certification
+AbleGamers Academy
+ — Certified Accessible Player Experience Practitioner
