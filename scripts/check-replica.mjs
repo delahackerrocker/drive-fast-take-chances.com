@@ -51,6 +51,17 @@ for (const behavior of ["aria-expanded", "Escape", "is-open"]) {
   }
 }
 
+for (const socialLink of ["LinkedIn", "GitHub"]) {
+  if (!header.includes(`"${socialLink}"`)) {
+    throw new Error(`Missing top navigation link: ${socialLink}`);
+  }
+}
+
+const siteLink = fs.readFileSync("src/components/SiteLink.jsx", "utf8");
+if (!siteLink.includes('target={href.startsWith("http") ? "_blank"')) {
+  throw new Error("External navigation links must open in a new tab.");
+}
+
 const css = fs.readFileSync("src/styles/replica.css", "utf8");
 for (const rule of ["@media (max-width: 960px)", "@media (max-width: 720px)", "prefers-reduced-motion", ":focus-visible"]) {
   if (!css.includes(rule)) {

@@ -2,6 +2,10 @@ import { useEffect, useState } from "react";
 import { referenceSite } from "../data/referenceContent";
 import SiteLink from "./SiteLink";
 
+const headerSocialLinks = referenceSite.social.filter((item) =>
+  ["LinkedIn", "GitHub"].includes(item.label),
+);
+
 export default function ReplicaHeader({ navigate, pathname }) {
   const [open, setOpen] = useState(false);
 
@@ -46,6 +50,11 @@ export default function ReplicaHeader({ navigate, pathname }) {
               href={item.href}
               navigate={navigate}
             >
+              {item.label}
+            </SiteLink>
+          ))}
+          {headerSocialLinks.map((item) => (
+            <SiteLink key={item.href} href={item.href} navigate={navigate}>
               {item.label}
             </SiteLink>
           ))}
