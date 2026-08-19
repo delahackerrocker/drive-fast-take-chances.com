@@ -34,9 +34,10 @@ base.set_cell_free_paragraph_geometry = scaled_geometry
 base.SOURCE = Path(__file__).with_name("Steven_de_la_Torre_Master_Resume_3_Page.md")
 base.OUTPUT = base.ROOT / "output" / "resume" / "Steven_de_la_Torre_Master_Resume_3_Page.docx"
 base.ROLE_PAGE_BREAKS = {
-    "FREELANCE — Unity UX Developer": "PROFESSIONAL EXPERIENCE — CONTINUED",
+    "ACTIVISION BLIZZARD / RAVEN SOFTWARE": "PROFESSIONAL EXPERIENCE — CONTINUED",
+    "YAHOO!": "PROFESSIONAL EXPERIENCE — CONTINUED",
 }
-base.SECTION_PAGE_BREAKS = {"Selected Independent Work"}
+base.SECTION_PAGE_BREAKS = set()
 
 
 def _effective_spacing(paragraph, attribute):

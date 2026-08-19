@@ -1,23 +1,35 @@
 # STEVEN DE LA TORRE
 
-**Systems Designer · Software Developer · UX & Interactive Designer**
+**Agentic Builder · Systems Designer · Software Developer · UX Designer**
 
 Columbus, OH · (614) 802-7774 · SteveDeLaTorre@gmail.com  
 [Portfolio](https://practitioner.digital) · [LinkedIn](https://www.linkedin.com/in/delahackerrocker/)
 
 ## Professional Summary
 
-Multidisciplinary systems designer, software developer, and UX practitioner with more than 20 years of experience building games, interactive products, production tools, and emerging-technology experiences. I work comfortably across code, gameplay systems, interface design, visual development, prototyping, testing, and team leadership. My background includes AAA development on Call of Duty, licensed console and mobile titles, Unity and Unreal development, virtual and augmented reality, mixed-reality production, branded interactive work, and internal tools that have saved teams thousands of production hours. I am at my best when a problem crosses disciplinary boundaries and needs someone who can understand the experience as a whole, then help design, build, test, and refine it.
+Multidisciplinary agentic builder, systems designer, software developer, and UX practitioner with more than 20 years of experience building games, interactive products, production tools, and emerging-technology experiences. I work comfortably across code, agentic workflows, gameplay systems, interface design, prototyping, testing, and team leadership. My background includes AAA development on Call of Duty, licensed console and mobile titles, Unity and Unreal development, React web products, virtual and augmented reality, mixed-reality production, and internal tools that have saved teams thousands of production hours. I am at my best when a problem crosses disciplinary boundaries and needs someone who can understand the experience as a whole, then design, build, verify, and refine a practical solution.
 
 ## Core Capabilities
 
-Systems Design · Gameplay Design · Technical Design · Software Development · UI/UX Design · Interaction Design · Prototyping · Visual Design · Game Development · Tool Development · 3D and Spatial Design · Mixed Reality · Accessibility · Playtesting · Cross-Disciplinary Leadership · AI-Assisted Development and Evaluation
+Agentic Engineering · Systems Design · Technical Design · Software Development · UI/UX Design · Interaction Design · Prototyping · Game Development · Tool Development · AI Orchestration · Human-in-the-Loop Workflows · Accessibility · Playtesting · Cross-Disciplinary Leadership · AI-Assisted Development and Evaluation
 
 ## Professional Experience
 
+### FREELANCE — Agentic Builder
+
+**January 2026–Present | Columbus, OH**  
+Agentic Systems · AI Orchestration · React · JavaScript · Python · C# · Tool Use · Human-in-the-Loop Workflows
+
+- Design and build agentic workflows that turn ambiguous goals into scoped plans, tool-driven execution, verification, and reviewable deliverables across software, web, game, and document workflows.
+- Built TalentGarden, an AI recruiter and application CRM combining research signals, fit evaluation, portfolio intelligence, tailored materials, and human approval before any external action.
+- Direct coding agents across React/Vite and Unity/C# codebases to inspect systems, implement features, refactor safely, debug cross-file issues, document decisions, and validate results.
+- Rebuilt and shipped practitioner.digital, combining product strategy, information architecture, responsive React implementation, case-study media systems, accessibility, and recruiter-focused presentation.
+- Create reusable instructions, guardrails, and evaluation loops for multi-step agent work, emphasizing bounded tool access, explicit acceptance criteria, source-backed reasoning, and human judgment.
+- Work in a forward-deployed mode with domain experts, learning messy workflows quickly and delivering practical prototypes, automation, documentation, and production-ready improvements.
+
 ### IMPREZARIO ENTERTAINMENT — Principal Gameplay Designer
 
-**2024–Present | Columbus, OH**  
+**2024–September 2025 | Columbus, OH**  
 Unity · Unreal Engine · C# · C++ · Gameplay Systems · UX
 
 - Lead gameplay and technical design for licensed Charlie Brown mobile and How to Train Your Dragon console experiences, connecting gameplay systems, interface behavior, visual feedback, and narrative goals.
@@ -41,7 +53,7 @@ Call of Duty: Warzone · Call of Duty: Black Ops 6 · Lua · Python · Figma · 
 
 ### FREELANCE — Unity UX Developer / Interactive Systems Designer
 
-**2015–2020 | Remote**  
+**2015–2020 | Los Angeles, CA**  
 Unity · C# · VR · AR · UI/UX · Data Visualization
 
 - Led the redesign and development of a virtual-reality teaching platform for nurses and EMTs, transforming an early prototype into a more intuitive and feature-rich product.
@@ -113,7 +125,7 @@ ActionScript · Flash · Flex · Interactive Design
 
 **Production and Collaboration:** Git, Perforce, Jira, Bugzilla, SVN, CVS, Agile, Scrum, Visual Studio, cross-functional leadership, mentoring, design documentation, milestone reviews, stakeholder presentations
 
-**AI-Assisted Work:** AI-assisted software development, evaluation of generated code and documentation, rubric-based review, interface and visual critique, prompt refinement, constraint definition, and human-in-the-loop technical and creative judgment
+**Agentic and AI-Assisted Work:** Agent orchestration, tool-driven workflows, human-in-the-loop systems, AI-assisted software development, generated-code and documentation evaluation, rubric-based review, prompt refinement, constraint definition, verification, and technical and creative judgment
 
 ## Awards and Recognition
 
@@ -124,11 +136,8 @@ ActionScript · Flash · Flex · Interactive Design
 
 ## Education and Certifications
 
-**Mt Sierra College**  
-Vocational Studies · CompTIA A+ · Novell Certification · MCSD
+**Mt Sierra College — Los Angeles, CA** — Vocational Studies · CompTIA A+ · Novell Certification · MCSD
 
-**CRE8 Music Academy**  
-Music Production Certification
+**CRE8 Music Academy — Los Angeles, CA** — Music Production Certification
 
-**AbleGamers Academy**  
-Certified Accessible Player Experience Practitioner
+**AbleGamers Academy — Los Angeles, CA** — Certified Accessible Player Experience Practitioner

@@ -67,6 +67,25 @@ def main():
         r"INSERT CURRENT|\bTBD\b|\bTODO\b|drive-fast-take-chances\.com", source, re.I
     )
     checks["portfolio_url_current"] = "https://practitioner.digital" in source
+    checks["agentic_role_current"] = all(
+        item in source
+        for item in (
+            "FREELANCE — Agentic Builder",
+            "January 2026–Present",
+            "TalentGarden",
+        )
+    )
+    checks["imprezario_end_date"] = "2024–September 2025" in source
+    checks["updated_locations"] = all(
+        item in source
+        for item in (
+            "January 2026–Present | Columbus, OH",
+            "2015–2020 | Los Angeles, CA",
+            "Mt Sierra College — Los Angeles, CA",
+            "CRE8 Music Academy — Los Angeles, CA",
+            "AbleGamers Academy — Los Angeles, CA",
+        )
+    )
 
     document = Document(DOCX)
     docx_text, document_xml, rels_xml = docx_text_and_xml()
@@ -142,6 +161,8 @@ def main():
 
     essential = [
         "STEVEN DE LA TORRE",
+        "FREELANCE — Agentic Builder",
+        "TalentGarden",
         "IMPREZARIO ENTERTAINMENT",
         "ACTIVISION BLIZZARD / RAVEN SOFTWARE",
         "PROFESSIONAL EXPERIENCE — CONTINUED",

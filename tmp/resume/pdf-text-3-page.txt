@@ -1,24 +1,39 @@
 1
 STEVEN DE LA TORRE
-Systems Designer · Software Developer · UX & Interactive Designer
+Agentic Builder · Systems Designer · Software Developer · UX Designer
 Columbus, OH  ·  (614) 802-7774  ·  SteveDeLaTorre@gmail.com
 practitioner.digital  ·  linkedin.com/in/delahackerrocker
 PROFESSIONAL SUMMARY
-Multidisciplinary systems designer, software developer, and UX practitioner with more than 20 years of experience
-building games, interactive products, production tools, and emerging-technology experiences. I work comfortably
-across code, gameplay systems, interface design, visual development, prototyping, testing, and team leadership. My
-background includes AAA development on Call of Duty, licensed console and mobile titles, Unity and Unreal
-development, virtual and augmented reality, mixed-reality production, branded interactive work, and internal tools
+Multidisciplinary agentic builder, systems designer, software developer, and UX practitioner with more than 20 years
+of experience building games, interactive products, production tools, and emerging-technology experiences. I work
+comfortably across code, agentic workflows, gameplay systems, interface design, prototyping, testing, and team
+leadership. My background includes AAA development on Call of Duty, licensed console and mobile titles, Unity and
+Unreal development, React web products, virtual and augmented reality, mixed-reality production, and internal tools
 that have saved teams thousands of production hours. I am at my best when a problem crosses disciplinary
-boundaries and needs someone who can understand the experience as a whole, then help design, build, test, and
-refine it.
+boundaries and needs someone who can understand the experience as a whole, then design, build, verify, and
+refine a practical solution.
 CORE CAPABILITIES
-Systems Design · Gameplay Design · Technical Design · Software Development · UI/UX Design · Interaction Design ·
-Prototyping · Visual Design · Game Development · Tool Development · 3D and Spatial Design · Mixed Reality · Accessibility ·
+Agentic Engineering · Systems Design · Technical Design · Software Development · UI/UX Design · Interaction Design ·
+Prototyping · Game Development · Tool Development · AI Orchestration · Human-in-the-Loop Workflows · Accessibility ·
 Playtesting · Cross-Disciplinary Leadership · AI-Assisted Development and Evaluation
 PROFESSIONAL EXPERIENCE
+FREELANCE — Agentic Builder
+January 2026–Present | Columbus, OH
+Agentic Systems · AI Orchestration · React · JavaScript · Python · C# · Tool Use · Human-in-the-Loop Workflows
+ Design and build agentic workflows that turn ambiguous goals into scoped plans, tool-driven execution, verification,
+ and reviewable deliverables across software, web, game, and document workflows.
+ Built TalentGarden, an AI recruiter and application CRM combining research signals, fit evaluation, portfolio
+ intelligence, tailored materials, and human approval before any external action.
+ Direct coding agents across React/Vite and Unity/C# codebases to inspect systems, implement features, refactor
+ safely, debug cross-file issues, document decisions, and validate results.
+ Rebuilt and shipped practitioner.digital, combining product strategy, information architecture, responsive React
+ implementation, case-study media systems, accessibility, and recruiter-focused presentation.
+ Create reusable instructions, guardrails, and evaluation loops for multi-step agent work, emphasizing bounded tool
+ access, explicit acceptance criteria, source-backed reasoning, and human judgment.
+ Work in a forward-deployed mode with domain experts, learning messy workflows quickly and delivering practical
+ prototypes, automation, documentation, and production-ready improvements.
 IMPREZARIO ENTERTAINMENT — Principal Gameplay Designer
-2024–Present | Columbus, OH
+2024–September 2025 | Columbus, OH
 Unity · Unreal Engine · C# · C++ · Gameplay Systems · UX
  Lead gameplay and technical design for licensed Charlie Brown mobile and How to Train Your Dragon console
  experiences, connecting gameplay systems, interface behavior, visual feedback, and narrative goals.
@@ -32,26 +47,26 @@ Unity · Unreal Engine · C# · C++ · Gameplay Systems · UX
  visual communication, and player-facing systems.
  Partner with creative leadership to keep gameplay, interface design, visual identity, and storytelling aligned across
  platforms.
-ACTIVISION BLIZZARD / RAVEN SOFTWARE — UX Technical Designer
-2020–2024 | Columbus, OH
-Call of Duty: Warzone · Call of Duty: Black Ops 6 · Lua · Python · Figma · Photoshop · Proprietary Engines
- Designed and implemented interface and player-experience systems for Call of Duty: Warzone and Call of Duty: Black
- Ops 6 as a hybrid designer, developer, and visual problem-solver.
- Built modular UI systems and features in proprietary Call of Duty technology using Lua, enabling faster iteration and
- greater consistency across complex gameplay contexts.
- Created Python-based internal production tools that reduced repetitive UI work and saved thousands of development
- hours across the life of the systems.
- Produced wireframes, visual specifications, prototypes, design documentation, and implementation-ready assets in
- Figma and Photoshop.
- Worked directly with engineers, artists, designers, production teams, and stakeholders to troubleshoot bugs, improve
- pipelines, clarify requirements, and deliver polished AAA-scale features.
- Evaluated interface behavior through playtesting, usability observation, and iteration, balancing visual clarity,
- responsiveness, accessibility, and immersion.
 
 2
 PROFESSIONAL EXPERIENCE — CONTINUED
+ACTIVISION BLIZZARD / RAVEN SOFTWARE — UX Technical Designer
+2020–2024 | Columbus, OH
+Call of Duty: Warzone · Call of Duty: Black Ops 6 · Lua · Python · Figma · Photoshop · Proprietary Engines
+ Designed and implemented interface and player-experience systems for Call of Duty: Warzone and Call of Duty: Black Ops 6 as a
+ hybrid designer, developer, and visual problem-solver.
+ Built modular UI systems and features in proprietary Call of Duty technology using Lua, enabling faster iteration and greater
+ consistency across complex gameplay contexts.
+ Created Python-based internal production tools that reduced repetitive UI work and saved thousands of development hours across
+ the life of the systems.
+ Produced wireframes, visual specifications, prototypes, design documentation, and implementation-ready assets in Figma and
+ Photoshop.
+ Worked directly with engineers, artists, designers, production teams, and stakeholders to troubleshoot bugs, improve pipelines,
+ clarify requirements, and deliver polished AAA-scale features.
+ Evaluated interface behavior through playtesting, usability observation, and iteration, balancing visual clarity, responsiveness,
+ accessibility, and immersion.
 FREELANCE — Unity UX Developer / Interactive Systems Designer
-2015–2020 | Remote
+2015–2020 | Los Angeles, CA
 Unity · C# · VR · AR · UI/UX · Data Visualization
  Led the redesign and development of a virtual-reality teaching platform for nurses and EMTs, transforming an early prototype into
  a more intuitive and feature-rich product.
@@ -91,6 +106,9 @@ Unity · C# · Flash · Flex · PHP · UI/UX
  Monsters, Sin City, and Monsterology.
  Created interface systems, motion behavior, visual feedback, and visual designs while contributing directly to technical
  implementation.
+
+3
+PROFESSIONAL EXPERIENCE — CONTINUED
 YAHOO! — Senior Flash Game Developer / UI Designer
 2007–2009 | Santa Monica, CA
 ActionScript 3 · Flash · Flex · Game Design · UI
@@ -109,8 +127,6 @@ ActionScript · Flash · Flex · Interactive Design
  
  Created the Toonify Engine, an early personalization and commerce system that allowed fans to design customized avatars and
  purchase branded merchandise.
-
-3
 SELECTED INDEPENDENT WORK
 PRACT1T10N3R / GR1M01RE — Creator · Systems Designer · Unity Developer
  Design and develop an original tactical action role-playing game in Unity, including overhead and over-the-shoulder combat,
@@ -134,8 +150,9 @@ Art and Visual Production: Photoshop, Figma, Illustrator, After Effects, 3ds Max
 design, motion design, video capture, video editing, mixed-reality filming
 Production and Collaboration: Git, Perforce, Jira, Bugzilla, SVN, CVS, Agile, Scrum, Visual Studio, cross-functional leadership, mentoring,
 design documentation, milestone reviews, stakeholder presentations
-AI-Assisted Work: AI-assisted software development, evaluation of generated code and documentation, rubric-based review, interface and
-visual critique, prompt refinement, constraint definition, and human-in-the-loop technical and creative judgment
+Agentic and AI-Assisted Work: Agent orchestration, tool-driven workflows, human-in-the-loop systems, AI-assisted software development,
+generated-code and documentation evaluation, rubric-based review, prompt refinement, constraint definition, verification, and technical and
+creative judgment
 AWARDS AND RECOGNITION
  Best Web Application — Flash Forward, 2004
  
@@ -146,9 +163,6 @@ AWARDS AND RECOGNITION
  FWA Site of the Month — Two-time recipient
  
 EDUCATION AND CERTIFICATIONS
-Mt Sierra College
-Vocational Studies · CompTIA A+ · Novell Certification · MCSD
-CRE8 Music Academy
-Music Production Certification
-AbleGamers Academy
-Certified Accessible Player Experience Practitioner
+Mt Sierra College — Los Angeles, CA — Vocational Studies · CompTIA A+ · Novell Certification · MCSD
+CRE8 Music Academy — Los Angeles, CA — Music Production Certification
+AbleGamers Academy — Los Angeles, CA — Certified Accessible Player Experience Practitioner

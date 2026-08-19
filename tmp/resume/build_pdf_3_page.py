@@ -61,9 +61,10 @@ base.resolve_style = page_aware_style
 base.SOURCE = Path(__file__).with_name("Steven_de_la_Torre_Master_Resume_3_Page.md")
 base.OUTPUT = base.ROOT / "output" / "resume" / "Steven_de_la_Torre_Master_Resume_3_Page.pdf"
 base.ROLE_PAGE_BREAKS = {
-    "FREELANCE — Unity UX Developer": "Professional Experience — Continued",
+    "ACTIVISION BLIZZARD / RAVEN SOFTWARE": "Professional Experience — Continued",
+    "YAHOO!": "Professional Experience — Continued",
 }
-base.SECTION_PAGE_BREAKS = {"Selected Independent Work"}
+base.SECTION_PAGE_BREAKS = set()
 
 
 if __name__ == "__main__":
