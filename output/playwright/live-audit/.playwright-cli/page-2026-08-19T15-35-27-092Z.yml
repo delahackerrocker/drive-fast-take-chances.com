@@ -1,0 +1,140 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - link "Skip to Content" [ref=f1e5] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f1e6]:
+      - link "Home" [ref=f1e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e8]: SD
+        - generic [ref=f1e9]: Steven de la Torre
+      - navigation "Primary navigation" [ref=f1e10]:
+        - link "Work" [ref=f1e11] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=f1e12] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=f1e13] [cursor=pointer]:
+          - /url: /services
+        - link "LinkedIn" [ref=f1e14] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/delahackerrocker/
+        - link "GitHub" [ref=f1e15] [cursor=pointer]:
+          - /url: https://github.com/delahackerrocker
+        - link "Book a 30-Min Project Call →" [ref=f1e16] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+  - main [ref=f1e17]:
+    - article [ref=f1e414]:
+      - generic [ref=f1e415]:
+        - link "← All Work" [ref=f1e416] [cursor=pointer]:
+          - /url: /work
+        - paragraph [ref=f1e417]: Five Releases · AAA / Live Service
+        - heading "Player-Facing Systems for Call of Duty" [level=1] [ref=f1e418]
+        - paragraph [ref=f1e419]: Designing player-facing systems across the Modern Warfare and Warzone era, from onboarding and interface flows to technical design and post-match communication.
+        - generic [ref=f1e420]:
+          - generic [ref=f1e421]:
+            - term [ref=f1e422]: Shipped releases
+            - definition [ref=f1e423]: "5"
+            - generic [ref=f1e424]: Shipped releases
+          - generic [ref=f1e425]:
+            - term [ref=f1e426]: Players in the live ecosystem
+            - definition [ref=f1e427]: Millions
+            - generic [ref=f1e428]: Players in the live ecosystem
+          - generic [ref=f1e429]:
+            - term [ref=f1e430]: UX, UI, engineering, production, and game design
+            - definition [ref=f1e431]: Cross-Studio
+            - generic [ref=f1e432]: UX, UI, engineering, production, and game design
+      - generic [ref=f1e433]:
+        - generic [ref=f1e434]:
+          - heading "The Work" [level=2] [ref=f1e435]
+          - paragraph [ref=f1e436]: My work included weapon icon systems, onboarding and first-time-user experience, post-match communication, interface flows, and technical design inside one of the largest live game ecosystems in the world.
+        - generic [ref=f1e437]:
+          - heading "The Challenge" [level=2] [ref=f1e438]
+          - paragraph [ref=f1e439]: Player-facing systems had to remain understandable under pressure while serving new players, experienced players, multiple modes, evolving content, and the realities of cross-studio production.
+        - generic [ref=f1e440]:
+          - heading "My Role" [level=2] [ref=f1e441]
+          - paragraph [ref=f1e442]: I worked across UX, UI, engineering, production, and game design to turn experience intent into specifications and behavior that could survive implementation and live-service change.
+        - generic [ref=f1e443]:
+          - heading "The Through Line" [level=2] [ref=f1e444]
+          - paragraph [ref=f1e445]: The strongest work was never merely a polished screen. It connected what the player needed to understand with the rules, data, feedback, and collaboration required to make that understanding real.
+        - generic [ref=f1e446]:
+          - heading "How It Went" [level=2] [ref=f1e447]
+          - list [ref=f1e448]:
+            - listitem [ref=f1e449]:
+              - text: "01"
+              - paragraph [ref=f1e450]: Step 01
+              - heading "Understand the Player State" [level=3] [ref=f1e451]
+              - paragraph [ref=f1e452]: Define what the player knows, needs, and can do at that moment.
+            - listitem [ref=f1e453]:
+              - text: "02"
+              - paragraph [ref=f1e454]: Step 02
+              - heading "Model the Interaction" [level=3] [ref=f1e455]
+              - paragraph [ref=f1e456]: Connect interface behavior to game state and production constraints.
+            - listitem [ref=f1e457]:
+              - text: "03"
+              - paragraph [ref=f1e458]: Step 03
+              - heading "Align the Disciplines" [level=3] [ref=f1e459]
+              - paragraph [ref=f1e460]: Make decisions legible across design, UI, engineering, and production.
+            - listitem [ref=f1e461]:
+              - text: "04"
+              - paragraph [ref=f1e462]: Step 04
+              - heading "Validate in Context" [level=3] [ref=f1e463]
+              - paragraph [ref=f1e464]: "Judge the experience where it matters: under a player’s thumbs."
+        - generic [ref=f1e465]:
+          - heading "Stack" [level=2] [ref=f1e466]
+          - generic [ref=f1e468]:
+            - heading "Tools and Technologies" [level=3] [ref=f1e469]
+            - list [ref=f1e470]:
+              - listitem [ref=f1e471]: Game UX
+              - listitem [ref=f1e472]: Technical Design
+              - listitem [ref=f1e473]: Live Service
+              - listitem [ref=f1e474]: Interaction Design
+              - listitem [ref=f1e475]: Cross-Studio Development
+      - generic [ref=f1e477]:
+        - generic [ref=f1e478]:
+          - paragraph [ref=f1e479]: Let’s Talk
+          - heading "Working on Something Similar?" [level=2] [ref=f1e481]
+        - link "Book a 30-Min Project Call →" [ref=f1e483] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+  - contentinfo [ref=f1e322]:
+    - generic [ref=f1e323]:
+      - generic [ref=f1e324]:
+        - paragraph [ref=f1e325]: Steven de la Torre
+        - paragraph [ref=f1e326]: UX designer, game developer, and agentic builder. I turn ambiguous interactive ideas into things people can use, play, and understand.
+      - link "Book a 30-Min Project Call →" [ref=f1e327] [cursor=pointer]:
+        - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+    - generic [ref=f1e328]:
+      - generic [ref=f1e329]:
+        - paragraph [ref=f1e330]: Follow the Build
+        - paragraph [ref=f1e331]: Development updates, worldbuilding, systems, and the occasional glimpse inside GR1M01RE — only when there is something worth showing.
+      - link "Follow on Ko-fi →" [ref=f1e332] [cursor=pointer]:
+        - /url: https://ko-fi.com/pract1t10ner
+    - generic [ref=f1e333]:
+      - generic [ref=f1e334]:
+        - paragraph [ref=f1e335]: Pages
+        - link "Work" [ref=f1e336] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=f1e337] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=f1e338] [cursor=pointer]:
+          - /url: /services
+        - link "Contact" [ref=f1e339] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com
+      - generic [ref=f1e340]:
+        - paragraph [ref=f1e341]: Projects
+        - link "GR1M01RE ↗" [ref=f1e342] [cursor=pointer]:
+          - /url: https://ko-fi.com/pract1t10ner
+        - link "TalentGarden" [ref=f1e343] [cursor=pointer]:
+          - /url: /work
+        - link "Call of Duty Experience" [ref=f1e344] [cursor=pointer]:
+          - /url: /work/call-of-duty
+      - generic [ref=f1e345]:
+        - paragraph [ref=f1e346]: Elsewhere
+        - link "LinkedIn ↗" [ref=f1e347] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/delahackerrocker/
+        - link "GitHub ↗" [ref=f1e348] [cursor=pointer]:
+          - /url: https://github.com/delahackerrocker
+        - link "Ko-fi ↗" [ref=f1e349] [cursor=pointer]:
+          - /url: https://ko-fi.com/pract1t10ner
+        - link "Email →" [ref=f1e350] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com
+    - generic [ref=f1e351]:
+      - generic [ref=f1e352]: Steven de la Torre · Columbus, Ohio · Remote · © 2026
+      - button "Back to Top ↑" [ref=f1e353] [cursor=pointer]

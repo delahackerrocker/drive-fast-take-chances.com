@@ -43,7 +43,7 @@ export default function ReferenceHome({ navigate }) {
         <SectionIntro eyebrow="Selected Work" />
         <div className="work-list">{homePage.selectedWork.map((item) => <WorkRow key={item.title} item={item} />)}</div>
       </section>
-      <section className="section shell">
+      <section className="section section--current-builds shell">
         <SectionIntro eyebrow="Current Builds" title="My Own Worlds and Tools." />
         <div className="product-grid">{homePage.products.map((product) => <ProductCard key={product.title} product={product} />)}</div>
       </section>

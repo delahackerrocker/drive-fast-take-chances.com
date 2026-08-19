@@ -1,3 +1,4 @@
+import { useLayoutEffect, useRef } from "react";
 import SiteLink from "./SiteLink";
 
 export function Kicker({ children }) {
@@ -46,13 +47,54 @@ export function Marquee({ items }) {
   );
 }
 
+function AutoFitMetricValue({ children }) {
+  const valueRef = useRef(null);
+
+  useLayoutEffect(() => {
+    const value = valueRef.current;
+    if (!value) return undefined;
+
+    let animationFrame;
+    let isActive = true;
+    const fitValue = () => {
+      if (!isActive) return;
+      cancelAnimationFrame(animationFrame);
+      animationFrame = requestAnimationFrame(() => {
+        value.style.fontSize = "";
+
+        const availableWidth = value.clientWidth;
+        const naturalWidth = value.scrollWidth;
+        const maximumSize = Number.parseFloat(getComputedStyle(value).fontSize);
+
+        if (availableWidth > 0 && naturalWidth > availableWidth) {
+          const fittedSize = Math.max(14, maximumSize * (availableWidth / naturalWidth));
+          value.style.fontSize = `${fittedSize}px`;
+        }
+      });
+    };
+
+    const resizeObserver = new ResizeObserver(fitValue);
+    resizeObserver.observe(value.parentElement);
+    document.fonts?.ready.then(fitValue);
+    fitValue();
+
+    return () => {
+      isActive = false;
+      cancelAnimationFrame(animationFrame);
+      resizeObserver.disconnect();
+    };
+  }, [children]);
+
+  return <dd ref={valueRef}>{children}</dd>;
+}
+
 export function MetricGrid({ items, compact = false }) {
   return (
     <dl className={`metric-grid${compact ? " metric-grid--compact" : ""}`}>
       {items.map((item) => (
         <div className="metric-card" key={item.label ?? item.value}>
           {item.label && <dt>{item.label}</dt>}
-          <dd>{item.value}</dd>
+          <AutoFitMetricValue>{item.value}</AutoFitMetricValue>
           {item.body && <p>{item.body}</p>}
           <small>{item.note ?? item.label}</small>
         </div>

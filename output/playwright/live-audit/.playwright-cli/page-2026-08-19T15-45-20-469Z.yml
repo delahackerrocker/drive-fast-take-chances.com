@@ -1,0 +1,398 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "Skip to Content" [ref=e5] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e6]:
+      - link "Home" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e8]: SD
+        - generic [ref=e9]: Steven de la Torre
+      - navigation "Primary navigation" [ref=e10]:
+        - link "Work" [ref=e11] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=e12] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e13] [cursor=pointer]:
+          - /url: /services
+        - link "LinkedIn" [ref=e14] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/delahackerrocker/
+        - link "GitHub" [ref=e15] [cursor=pointer]:
+          - /url: https://github.com/delahackerrocker
+        - link "Book a 30-Min Project Call →" [ref=e16] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+  - main [ref=e17]:
+    - region [ref=e18]:
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: UX Designer · Game Developer · Agentic Builder
+        - heading "You Have Something in Your Head. I Make It Real." [level=1] [ref=e22]:
+          - generic [ref=e23]: You Have Something in Your Head.
+          - mark [ref=e24]: I Make It Real.
+        - paragraph [ref=e25]: I design and build interactive products where UX, games, software, and AI meet — from player-facing systems on Call of Duty to indie game worlds, custom tools, and working web products.
+        - generic [ref=e26]:
+          - link "Book a 30-Min Project Call →" [ref=e27] [cursor=pointer]:
+            - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+          - link "See the Work ↓" [ref=e28] [cursor=pointer]:
+            - /url: /#work
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: Builder Spec
+        - table [ref=e31]:
+          - rowgroup [ref=e32]:
+            - row [ref=e33]:
+              - rowheader "Based" [ref=e34]
+              - cell "Columbus, Ohio" [ref=e35]
+            - row [ref=e36]:
+              - rowheader "Mode" [ref=e37]
+              - cell "Remote · US / Intl" [ref=e38]
+            - row [ref=e39]:
+              - rowheader "Engage" [ref=e40]
+              - cell "Contract · Fractional · Full-time" [ref=e41]
+            - row [ref=e42]:
+              - rowheader "Stack" [ref=e43]
+              - cell "Unity · C# · React · AI" [ref=e44]
+            - row [ref=e45]:
+              - rowheader "Status" [ref=e46]
+              - cell "Available" [ref=e47]
+    - generic "UX Design, Game UX, Interaction Design, Technical Design, Unity, C#, React, TypeScript, Three.js, Prototyping, Design Systems, Gameplay Systems, AI Workflows, Product Strategy, Accessibility" [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - text: UX Design
+            - generic [ref=e53]: ◆
+          - generic [ref=e54]:
+            - text: Game UX
+            - generic [ref=e55]: ◆
+          - generic [ref=e56]:
+            - text: Interaction Design
+            - generic [ref=e57]: ◆
+          - generic [ref=e58]:
+            - text: Technical Design
+            - generic [ref=e59]: ◆
+          - generic [ref=e60]:
+            - text: Unity
+            - generic [ref=e61]: ◆
+          - generic [ref=e62]:
+            - text: C#
+            - generic [ref=e63]: ◆
+          - generic [ref=e64]:
+            - text: React
+            - generic [ref=e65]: ◆
+          - generic [ref=e66]:
+            - text: TypeScript
+            - generic [ref=e67]: ◆
+          - generic [ref=e68]:
+            - text: Three.js
+            - generic [ref=e69]: ◆
+          - generic [ref=e70]:
+            - text: Prototyping
+            - generic [ref=e71]: ◆
+          - generic [ref=e72]:
+            - text: Design Systems
+            - generic [ref=e73]: ◆
+          - generic [ref=e74]:
+            - text: Gameplay Systems
+            - generic [ref=e75]: ◆
+          - generic [ref=e76]:
+            - text: AI Workflows
+            - generic [ref=e77]: ◆
+          - generic [ref=e78]:
+            - text: Product Strategy
+            - generic [ref=e79]: ◆
+          - generic [ref=e80]:
+            - text: Accessibility
+            - generic [ref=e81]: ◆
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - text: UX Design
+            - generic [ref=e84]: ◆
+          - generic [ref=e85]:
+            - text: Game UX
+            - generic [ref=e86]: ◆
+          - generic [ref=e87]:
+            - text: Interaction Design
+            - generic [ref=e88]: ◆
+          - generic [ref=e89]:
+            - text: Technical Design
+            - generic [ref=e90]: ◆
+          - generic [ref=e91]:
+            - text: Unity
+            - generic [ref=e92]: ◆
+          - generic [ref=e93]:
+            - text: C#
+            - generic [ref=e94]: ◆
+          - generic [ref=e95]:
+            - text: React
+            - generic [ref=e96]: ◆
+          - generic [ref=e97]:
+            - text: TypeScript
+            - generic [ref=e98]: ◆
+          - generic [ref=e99]:
+            - text: Three.js
+            - generic [ref=e100]: ◆
+          - generic [ref=e101]:
+            - text: Prototyping
+            - generic [ref=e102]: ◆
+          - generic [ref=e103]:
+            - text: Design Systems
+            - generic [ref=e104]: ◆
+          - generic [ref=e105]:
+            - text: Gameplay Systems
+            - generic [ref=e106]: ◆
+          - generic [ref=e107]:
+            - text: AI Workflows
+            - generic [ref=e108]: ◆
+          - generic [ref=e109]:
+            - text: Product Strategy
+            - generic [ref=e110]: ◆
+          - generic [ref=e111]:
+            - text: Accessibility
+            - generic [ref=e112]: ◆
+    - generic [ref=e113]:
+      - paragraph [ref=e115]: Proof, Not Adjectives
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - term [ref=e119]: 5 Shipped Releases
+          - definition [ref=e120]: Call of Duty
+          - paragraph [ref=e121]: Credits across the Modern Warfare and Warzone era.
+          - generic [ref=e122]: AAA · Live Service · Player-Facing UX
+        - generic [ref=e123]:
+          - term [ref=e124]: UX + Code
+          - definition [ref=e125]: One Loop
+          - paragraph [ref=e126]: One person from interaction model through working implementation.
+          - generic [ref=e127]: Design · Prototype · Build
+        - generic [ref=e128]:
+          - term [ref=e129]: Major Organizations
+          - definition [ref=e130]: Google · NBA · USAF
+          - paragraph [ref=e131]: Immersive and interactive work delivered before Call of Duty.
+          - generic [ref=e132]: VR · AR · Experiential
+        - generic [ref=e133]:
+          - term [ref=e134]: AAA → Indie
+          - definition [ref=e135]: End to End
+          - paragraph [ref=e136]: Large-team production judgment applied to complete products and systems.
+          - generic [ref=e137]: Systems · Tools · Worldbuilding
+        - generic [ref=e138]:
+          - term [ref=e139]: Current Build
+          - definition [ref=e140]: GR1M01RE
+          - paragraph [ref=e141]: A city-scale tactical RPG with combat, magic, hacking, procedural spaces, and developer tooling.
+          - generic [ref=e142]: Unity 6.5 · Active Development
+      - paragraph [ref=e143]: Accessible Player Experience Trained · Cross-Disciplinary by Default · Building Since Age 14
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - paragraph [ref=e146]: Typical Engagements
+        - heading "How You Can Hire Me." [level=2] [ref=e148]
+      - generic [ref=e149]:
+        - article [ref=e150]:
+          - heading "Build Your AI App" [level=3] [ref=e151]
+          - list [ref=e152]:
+            - listitem [ref=e153]: ↳ Turn an idea into a working product prototype
+            - listitem [ref=e154]: ↳ Define the UX, interaction model, and technical path
+            - listitem [ref=e155]: ↳ Build the highest-risk user journey first
+            - listitem [ref=e156]: ↳ Leave your team a system it can understand and continue
+        - article [ref=e157]:
+          - heading "Unblock Your AI App" [level=3] [ref=e158]
+          - list [ref=e159]:
+            - listitem [ref=e160]: ↳ Audit the product, workflow, and implementation
+            - listitem [ref=e161]: ↳ Find the UX, architecture, or execution bottleneck
+            - listitem [ref=e162]: ↳ Separate the real problem from workaround debt
+            - listitem [ref=e163]: ↳ Deliver a recovery plan and, when useful, build the fix
+        - article [ref=e164]:
+          - heading "Game Development & Interactive Systems" [level=3] [ref=e165]
+          - list [ref=e166]:
+            - listitem [ref=e167]: ↳ Gameplay systems, controls, cameras, combat, UI, and tools
+            - listitem [ref=e168]: ↳ Unity prototypes and production-ready C#
+            - listitem [ref=e169]: ↳ Player-centered design from feel through behavior
+            - listitem [ref=e170]: ↳ Technical design that connects creative intent to maintainable systems
+        - article [ref=e171]:
+          - heading "Web Design & Development" [level=3] [ref=e172]
+          - list [ref=e173]:
+            - listitem [ref=e174]: ↳ Product strategy, information architecture, UX, and responsive UI
+            - listitem [ref=e175]: ↳ Marketing sites, web apps, internal tools, and custom platforms
+            - listitem [ref=e176]: ↳ React or a pragmatic CMS when it is the better answer
+            - listitem [ref=e177]: ↳ AI-enabled workflows only where they belong
+      - link "Book a 30-Min Project Call →" [ref=e178] [cursor=pointer]:
+        - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+    - generic [ref=e179]:
+      - paragraph [ref=e181]: Selected Case Studies
+      - generic [ref=e183]:
+        - link "Case Study 01 · Five Releases · AAA / Live Service Player-Facing Systems for Call of Duty Weapon icons, onboarding and first-time-user experience, post-match communication, interface flows, and technical design inside one of the largest live game ecosystems in the world. UX + Systems Read the Full Case →" [ref=e184] [cursor=pointer]:
+          - /url: /work/call-of-duty
+          - paragraph [ref=e185]: Case Study 01 · Five Releases · AAA / Live Service
+          - heading "Player-Facing Systems for Call of Duty" [level=3] [ref=e186]
+          - paragraph [ref=e187]: Weapon icons, onboarding and first-time-user experience, post-match communication, interface flows, and technical design inside one of the largest live game ecosystems in the world.
+          - generic [ref=e188]:
+            - strong [ref=e189]: UX + Systems
+            - generic [ref=e190]: Read the Full Case →
+        - link "Case Study 02 · GR1M01RE · Unity 6.5 Building a Tactical RPG From Intent to Playable Systems A city-scale indie RPG combining overhead tactics, over-the-shoulder action, guns, magic, melee, hacking, procedural spaces, and custom development tools. Design → Build Read the Full Case →" [ref=e191] [cursor=pointer]:
+          - /url: /work/gr1m01re
+          - paragraph [ref=e192]: Case Study 02 · GR1M01RE · Unity 6.5
+          - heading "Building a Tactical RPG From Intent to Playable Systems" [level=3] [ref=e193]
+          - paragraph [ref=e194]: A city-scale indie RPG combining overhead tactics, over-the-shoulder action, guns, magic, melee, hacking, procedural spaces, and custom development tools.
+          - generic [ref=e195]:
+            - strong [ref=e196]: Design → Build
+            - generic [ref=e197]: Read the Full Case →
+      - link "See All Work and Experiments →" [ref=e198] [cursor=pointer]:
+        - /url: /work
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - paragraph [ref=e202]: What I Actually Do
+        - heading "I Turn Fuzzy Ideas Into Things People Can Use, Play, and Understand." [level=2] [ref=e204]
+      - paragraph [ref=e205]: The feature you can explain but cannot quite design. The prototype that technically works but feels wrong. The game system that exists in documents but not under a player’s thumbs. I find the experience at the center, build the riskiest part first, and carry it across the line without losing the reason it should exist.
+    - generic [ref=e206]:
+      - paragraph [ref=e208]: Selected Work
+      - generic [ref=e210]:
+        - article [ref=e211]:
+          - generic [ref=e212]:
+            - heading "Call of Duty Player Systems" [level=3] [ref=e213]
+            - paragraph [ref=e214]: Designed and implemented player-facing systems within the Modern Warfare and Warzone ecosystem, working across UX, UI, engineering, production, and game design.
+            - generic [ref=e215]: Five shipped releases · Millions of players · Cross-studio development
+          - list [ref=e216]:
+            - listitem [ref=e217]: Game UX
+            - listitem [ref=e218]: Technical Design
+            - listitem [ref=e219]: Live Service
+        - article [ref=e220]:
+          - generic [ref=e221]:
+            - heading "GR1M01RE / PRACT1T10N3R" [level=3] [ref=e222]
+            - paragraph [ref=e223]: Building an original tactical RPG that shifts between overhead command and direct action, with guns, magic, melee, hacking, a living city, and deeply connected systemic design.
+            - generic [ref=e224]: Playable combat foundation · Procedural-world pipeline · Active development
+          - list [ref=e225]:
+            - listitem [ref=e226]: Unity
+            - listitem [ref=e227]: C#
+            - listitem [ref=e228]: Systems Design
+            - listitem [ref=e229]: Worldbuilding
+        - article [ref=e230]:
+          - generic [ref=e231]:
+            - heading "TalentGarden" [level=3] [ref=e232]
+            - paragraph [ref=e233]: A personal AI recruiter, application CRM, research-signal index, and portfolio-intelligence system that evaluates fit and prepares tailored materials with human approval before anything is sent.
+            - generic [ref=e234]: Research → Fit → Tailored application · Human in the loop
+          - list [ref=e235]:
+            - listitem [ref=e236]: Agentic Development
+            - listitem [ref=e237]: Product Design
+            - listitem [ref=e238]: Automation
+        - article [ref=e239]:
+          - generic [ref=e240]:
+            - heading "Client and Partner Web Platforms" [level=3] [ref=e241]
+            - paragraph [ref=e242]: Designing and building practical web products across healthcare commerce, performance benchmarking, and music licensing.
+            - generic [ref=e243]: Strategy · UX · Systems · Production
+          - list [ref=e244]:
+            - listitem [ref=e245]: UX
+            - listitem [ref=e246]: Product Strategy
+            - listitem [ref=e247]: Web Development
+        - article [ref=e248]:
+          - generic [ref=e249]:
+            - heading "Interactive System Experiments" [level=3] [ref=e250]
+            - paragraph [ref=e251]: Focused experiments in cameras, controls, tactical interfaces, hacking interactions, procedural generation, and player feedback.
+            - generic [ref=e252]: Playable interaction research · Web / executable path
+          - list [ref=e253]:
+            - listitem [ref=e254]: Prototype Design
+            - listitem [ref=e255]: Unity
+            - listitem [ref=e256]: Web
+    - generic [ref=e257]:
+      - generic [ref=e258]:
+        - paragraph [ref=e259]: Current Builds
+        - heading "My Own Worlds and Tools." [level=2] [ref=e261]
+      - generic [ref=e262]:
+        - link "In Development GR1M01RE A tactical cyberpunk-fantasy RPG about runners, factions, off-leash AI, hacking, magic, guns, and survival in a broken future. Game Unity Systems Worldbuilding Follow the Build →" [ref=e263] [cursor=pointer]:
+          - /url: https://ko-fi.com/pract1t10ner
+          - generic [ref=e264]: In Development
+          - heading "GR1M01RE" [level=3] [ref=e265]
+          - paragraph [ref=e266]: A tactical cyberpunk-fantasy RPG about runners, factions, off-leash AI, hacking, magic, guns, and survival in a broken future.
+          - list [ref=e267]:
+            - listitem [ref=e268]: Game
+            - listitem [ref=e269]: Unity
+            - listitem [ref=e270]: Systems
+            - listitem [ref=e271]: Worldbuilding
+          - strong [ref=e272]: Follow the Build →
+        - article [ref=e273]:
+          - generic [ref=e274]: In Development
+          - heading "TalentGarden" [level=3] [ref=e275]
+          - paragraph [ref=e276]: An agentic career system that treats job hunting as a research, matching, portfolio, and relationship problem rather than an endless stream of low-signal applications.
+          - list [ref=e277]:
+            - listitem [ref=e278]: AI
+            - listitem [ref=e279]: Automation
+            - listitem [ref=e280]: Career Tools
+            - listitem [ref=e281]: Web
+          - strong [ref=e282]: Public Project Coming Soon
+    - generic [ref=e283]:
+      - generic [ref=e284]:
+        - generic "Portrait placeholder" [ref=e285]: SD
+        - generic [ref=e287]:
+          - paragraph [ref=e288]: Who You’d Be Working With
+          - heading "I’m Steven de la Torre — UX Designer, Game Developer, and Agentic Builder." [level=2] [ref=e290]
+          - paragraph [ref=e291]: Based in Columbus, Ohio, I spent years designing player-facing systems for Call of Duty and previously shipped immersive work for Google, the NBA, and the U.S. Air Force. Today I build an indie tactical RPG in Unity, web products with clients and partners, and AI-assisted workflows. I’m at my best when the brief is messy, disciplines overlap, and the experience needs to make sense — not merely function.
+      - link "Read the Full Story →" [ref=e293] [cursor=pointer]:
+        - /url: /about
+    - generic [ref=e294]:
+      - generic [ref=e295]:
+        - paragraph [ref=e296]: How I Work
+        - heading "What Working With Me Looks Like." [level=2] [ref=e298]
+      - list [ref=e299]:
+        - listitem [ref=e300]:
+          - text: "01"
+          - heading "I Start With the Experience" [level=3] [ref=e301]
+          - paragraph [ref=e302]: Before choosing a framework or drawing a polished screen, I identify what the player, user, or customer should understand, feel, and be able to do.
+        - listitem [ref=e303]:
+          - text: "02"
+          - heading "I Prototype the Dangerous Part" [level=3] [ref=e304]
+          - paragraph [ref=e305]: Every project has one assumption that can quietly ruin the rest. I build it early enough to learn before the project becomes expensive to change.
+        - listitem [ref=e306]:
+          - text: "03"
+          - heading "Design and Implementation Stay in the Same Loop" [level=3] [ref=e307]
+          - paragraph [ref=e308]: I move from interaction design to technical design to working code without throwing the idea over a wall and hoping it survives.
+        - listitem [ref=e309]:
+          - text: "04"
+          - heading "No Theater, No Unnecessary Architecture" [level=3] [ref=e310]
+          - paragraph [ref=e311]: I build the smallest honest version that proves the experience, document the decisions that matter, and leave the system understandable.
+    - generic [ref=e313]:
+      - generic [ref=e314]:
+        - paragraph [ref=e315]: Let’s Talk
+        - heading "Have Something Strange, Useful, or Stuck?" [level=2] [ref=e317]
+        - paragraph [ref=e318]: Bring me the messy idea. We will spend 30 minutes finding the real problem, what a useful first version looks like, and whether I am the right person to help design or build it. No pitch deck required.
+      - generic [ref=e319]:
+        - link "Book a 30-Min Project Call →" [ref=e320] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+        - link "Or Send a Message →" [ref=e321] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com
+  - contentinfo [ref=e322]:
+    - generic [ref=e323]:
+      - generic [ref=e324]:
+        - paragraph [ref=e325]: Steven de la Torre
+        - paragraph [ref=e326]: UX designer, game developer, and agentic builder. I turn ambiguous interactive ideas into things people can use, play, and understand.
+      - link "Book a 30-Min Project Call →" [ref=e327] [cursor=pointer]:
+        - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+    - generic [ref=e328]:
+      - generic [ref=e329]:
+        - paragraph [ref=e330]: Follow the Build
+        - paragraph [ref=e331]: Development updates, worldbuilding, systems, and the occasional glimpse inside GR1M01RE — only when there is something worth showing.
+      - link "Follow on Ko-fi →" [ref=e332] [cursor=pointer]:
+        - /url: https://ko-fi.com/pract1t10ner
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - paragraph [ref=e335]: Pages
+        - link "Work" [ref=e336] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=e337] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e338] [cursor=pointer]:
+          - /url: /services
+        - link "Contact" [ref=e339] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com
+      - generic [ref=e340]:
+        - paragraph [ref=e341]: Projects
+        - link "GR1M01RE ↗" [ref=e342] [cursor=pointer]:
+          - /url: https://ko-fi.com/pract1t10ner
+        - link "TalentGarden" [ref=e343] [cursor=pointer]:
+          - /url: /work
+        - link "Call of Duty Experience" [ref=e344] [cursor=pointer]:
+          - /url: /work/call-of-duty
+      - generic [ref=e345]:
+        - paragraph [ref=e346]: Elsewhere
+        - link "LinkedIn ↗" [ref=e347] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/delahackerrocker/
+        - link "GitHub ↗" [ref=e348] [cursor=pointer]:
+          - /url: https://github.com/delahackerrocker
+        - link "Ko-fi ↗" [ref=e349] [cursor=pointer]:
+          - /url: https://ko-fi.com/pract1t10ner
+        - link "Email →" [ref=e350] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com
+    - generic [ref=e351]:
+      - generic [ref=e352]: Steven de la Torre · Columbus, Ohio · Remote · © 2026
+      - button "Back to Top ↑" [ref=e353] [cursor=pointer]

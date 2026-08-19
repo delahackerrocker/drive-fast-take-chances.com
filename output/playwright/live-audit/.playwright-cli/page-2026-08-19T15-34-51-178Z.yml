@@ -1,0 +1,124 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - link "Skip to Content" [ref=f1e5] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f1e6]:
+      - link "Home" [ref=f1e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e8]: SD
+        - generic [ref=f1e9]: Steven de la Torre
+      - navigation "Primary navigation" [ref=f1e10]:
+        - link "Work" [active] [ref=f1e11] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=f1e12] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=f1e13] [cursor=pointer]:
+          - /url: /services
+        - link "LinkedIn" [ref=f1e14] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/delahackerrocker/
+        - link "GitHub" [ref=f1e15] [cursor=pointer]:
+          - /url: https://github.com/delahackerrocker
+        - link "Book a 30-Min Project Call →" [ref=f1e16] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+  - main [ref=f1e17]:
+    - generic [ref=f1e355]:
+      - paragraph [ref=f1e356]: Work
+      - heading "Selected Work and Experiments." [level=1] [ref=f1e358]
+      - paragraph [ref=f1e359]: Player-facing game systems, original worlds, agentic tools, web platforms, and focused interaction experiments.
+    - generic [ref=f1e360]:
+      - generic [ref=f1e361]:
+        - paragraph [ref=f1e362]: Current Builds
+        - heading "My Own Worlds and Tools." [level=2] [ref=f1e364]
+        - paragraph [ref=f1e365]: Original products and systems in active development.
+      - generic [ref=f1e366]:
+        - link "In Development GR1M01RE A tactical cyberpunk-fantasy RPG about runners, factions, off-leash AI, hacking, magic, guns, and survival in a broken future. Game Unity Systems Worldbuilding Follow the Build →" [ref=f1e367] [cursor=pointer]:
+          - /url: https://ko-fi.com/pract1t10ner
+          - generic [ref=f1e368]: In Development
+          - heading "GR1M01RE" [level=3] [ref=f1e369]
+          - paragraph [ref=f1e370]: A tactical cyberpunk-fantasy RPG about runners, factions, off-leash AI, hacking, magic, guns, and survival in a broken future.
+          - list [ref=f1e371]:
+            - listitem [ref=f1e372]: Game
+            - listitem [ref=f1e373]: Unity
+            - listitem [ref=f1e374]: Systems
+            - listitem [ref=f1e375]: Worldbuilding
+          - strong [ref=f1e376]: Follow the Build →
+        - article [ref=f1e377]:
+          - generic [ref=f1e378]: In Development
+          - heading "TalentGarden" [level=3] [ref=f1e379]
+          - paragraph [ref=f1e380]: An agentic career system that treats job hunting as a research, matching, portfolio, and relationship problem rather than an endless stream of low-signal applications.
+          - list [ref=f1e381]:
+            - listitem [ref=f1e382]: AI
+            - listitem [ref=f1e383]: Automation
+            - listitem [ref=f1e384]: Career Tools
+            - listitem [ref=f1e385]: Web
+          - strong [ref=f1e386]: Public Project Coming Soon
+    - generic [ref=f1e387]:
+      - paragraph [ref=f1e389]: Case Studies
+      - generic [ref=f1e391]:
+        - link "Case Study 01 · Five Releases · AAA / Live Service Player-Facing Systems for Call of Duty Weapon icons, onboarding and first-time-user experience, post-match communication, interface flows, and technical design inside one of the largest live game ecosystems in the world. UX + Systems Read the Full Case →" [ref=f1e392] [cursor=pointer]:
+          - /url: /work/call-of-duty
+          - paragraph [ref=f1e393]: Case Study 01 · Five Releases · AAA / Live Service
+          - heading "Player-Facing Systems for Call of Duty" [level=3] [ref=f1e394]
+          - paragraph [ref=f1e395]: Weapon icons, onboarding and first-time-user experience, post-match communication, interface flows, and technical design inside one of the largest live game ecosystems in the world.
+          - generic [ref=f1e396]:
+            - strong [ref=f1e397]: UX + Systems
+            - generic [ref=f1e398]: Read the Full Case →
+        - link "Case Study 02 · GR1M01RE · Unity 6.5 Building a Tactical RPG From Intent to Playable Systems A city-scale indie RPG combining overhead tactics, over-the-shoulder action, guns, magic, melee, hacking, procedural spaces, and custom development tools. Design → Build Read the Full Case →" [ref=f1e399] [cursor=pointer]:
+          - /url: /work/gr1m01re
+          - paragraph [ref=f1e400]: Case Study 02 · GR1M01RE · Unity 6.5
+          - heading "Building a Tactical RPG From Intent to Playable Systems" [level=3] [ref=f1e401]
+          - paragraph [ref=f1e402]: A city-scale indie RPG combining overhead tactics, over-the-shoulder action, guns, magic, melee, hacking, procedural spaces, and custom development tools.
+          - generic [ref=f1e403]:
+            - strong [ref=f1e404]: Design → Build
+            - generic [ref=f1e405]: Read the Full Case →
+    - generic [ref=f1e407]:
+      - generic [ref=f1e408]:
+        - paragraph [ref=f1e409]: Let’s Talk
+        - heading "Have Something Strange, Useful, or Stuck?" [level=2] [ref=f1e411]
+      - link "Book a 30-Min Project Call →" [ref=f1e413] [cursor=pointer]:
+        - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+  - contentinfo [ref=f1e322]:
+    - generic [ref=f1e323]:
+      - generic [ref=f1e324]:
+        - paragraph [ref=f1e325]: Steven de la Torre
+        - paragraph [ref=f1e326]: UX designer, game developer, and agentic builder. I turn ambiguous interactive ideas into things people can use, play, and understand.
+      - link "Book a 30-Min Project Call →" [ref=f1e327] [cursor=pointer]:
+        - /url: mailto:stevedelatorre@gmail.com?subject=30-minute%20Project%20Fit%20Call
+    - generic [ref=f1e328]:
+      - generic [ref=f1e329]:
+        - paragraph [ref=f1e330]: Follow the Build
+        - paragraph [ref=f1e331]: Development updates, worldbuilding, systems, and the occasional glimpse inside GR1M01RE — only when there is something worth showing.
+      - link "Follow on Ko-fi →" [ref=f1e332] [cursor=pointer]:
+        - /url: https://ko-fi.com/pract1t10ner
+    - generic [ref=f1e333]:
+      - generic [ref=f1e334]:
+        - paragraph [ref=f1e335]: Pages
+        - link "Work" [ref=f1e336] [cursor=pointer]:
+          - /url: /work
+        - link "About" [ref=f1e337] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=f1e338] [cursor=pointer]:
+          - /url: /services
+        - link "Contact" [ref=f1e339] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com
+      - generic [ref=f1e340]:
+        - paragraph [ref=f1e341]: Projects
+        - link "GR1M01RE ↗" [ref=f1e342] [cursor=pointer]:
+          - /url: https://ko-fi.com/pract1t10ner
+        - link "TalentGarden" [ref=f1e343] [cursor=pointer]:
+          - /url: /work
+        - link "Call of Duty Experience" [ref=f1e344] [cursor=pointer]:
+          - /url: /work/call-of-duty
+      - generic [ref=f1e345]:
+        - paragraph [ref=f1e346]: Elsewhere
+        - link "LinkedIn ↗" [ref=f1e347] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/delahackerrocker/
+        - link "GitHub ↗" [ref=f1e348] [cursor=pointer]:
+          - /url: https://github.com/delahackerrocker
+        - link "Ko-fi ↗" [ref=f1e349] [cursor=pointer]:
+          - /url: https://ko-fi.com/pract1t10ner
+        - link "Email →" [ref=f1e350] [cursor=pointer]:
+          - /url: mailto:stevedelatorre@gmail.com
+    - generic [ref=f1e351]:
+      - generic [ref=f1e352]: Steven de la Torre · Columbus, Ohio · Remote · © 2026
+      - button "Back to Top ↑" [ref=f1e353] [cursor=pointer]
