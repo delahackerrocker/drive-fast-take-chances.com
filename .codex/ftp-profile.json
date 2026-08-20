@@ -1,0 +1,10 @@
+{
+  "name": "practitioner.digital",
+  "protocol": "ftps-explicit",
+  "host": "p3plzcpnl507578.prod.phx3.secureserver.net",
+  "port": 21,
+  "username": "DelaHackerRocker@practitioner.digital",
+  "credentialTarget": "Codex:FTP:practitioner.digital",
+  "remoteDirectory": "public_html",
+  "uploadSource": "dist"
+}

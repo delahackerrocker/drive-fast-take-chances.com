@@ -62,7 +62,27 @@ if (!siteLink.includes('target={href.startsWith("http") ? "_blank"')) {
   throw new Error("External navigation links must open in a new tab.");
 }
 
+const primitives = fs.readFileSync("src/components/ReplicaPrimitives.jsx", "utf8");
+const home = fs.readFileSync("src/pages/ReferenceHome.jsx", "utf8");
+if (primitives.includes("profile-block__portrait")) {
+  throw new Error("The home profile must not render a placeholder portrait.");
+}
+if (home.includes("profile-story-link")) {
+  throw new Error("The home profile CTA must not render as a standalone empty rail.");
+}
+if (!primitives.includes("profile-block__actions")) {
+  throw new Error("The home profile CTA must sit directly beneath the biography copy.");
+}
+
 const css = fs.readFileSync("src/styles/replica.css", "utf8");
+
+if (!/\.hero\s*\{[^}]*align-items:\s*center/.test(css)) {
+  throw new Error("Homepage hero should vertically center the Builder Spec against the left content.");
+}
+
+if (!/\.hero h1\s*\{[^}]*font-size:\s*clamp\(2\.75rem,\s*5\.2vw,\s*4\.6rem\)/.test(css)) {
+  throw new Error("Homepage hero title should use the compact desktop scale that keeps its CTAs in the first fold.");
+}
 for (const rule of ["@media (max-width: 960px)", "@media (max-width: 720px)", "prefers-reduced-motion", ":focus-visible"]) {
   if (!css.includes(rule)) {
     throw new Error(`Missing responsive or accessibility rule: ${rule}`);

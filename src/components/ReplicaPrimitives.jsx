@@ -147,19 +147,28 @@ export function ProductCard({ product }) {
   );
 }
 
-export function ProfileBlock({ profile }) {
+export function ProfileBlock({ profile, cta, navigate }) {
   return (
     <div className="profile-block">
-      <div className="profile-block__portrait" aria-label="Portrait placeholder"><span>SD</span></div>
-      <div><Kicker>{profile.eyebrow}</Kicker><h2>{profile.title}</h2><p className="lede">{profile.body}</p></div>
+      <Kicker>{profile.eyebrow}</Kicker>
+      <h2>{profile.title.map((line) => <span key={line}>{line}</span>)}</h2>
+      <p className="lede">{profile.body}</p>
+      {cta && (
+        <div className="profile-block__actions">
+          <HardButton href={cta.href} navigate={navigate} tone="plain">{cta.label}</HardButton>
+        </div>
+      )}
     </div>
   );
 }
 
 export function ProcessGrid({ items }) {
-  return <ol className="process-grid">{items.map((item, index) => (
-    <li key={item.title}><span>{String(index + 1).padStart(2, "0")}</span>{item.meta && <p className="process-meta">{item.meta}</p>}<h3>{item.title}</h3><p>{item.body}</p></li>
-  ))}</ol>;
+  return <ol className="process-grid">{items.map((item, index) => {
+    const titleLines = Array.isArray(item.title) ? item.title : [item.title];
+    return (
+      <li key={titleLines.join(" ")}><span>{String(index + 1).padStart(2, "0")}</span>{item.meta && <p className="process-meta">{item.meta}</p>}<h3>{titleLines.map((line) => <span key={line}>{line}</span>)}</h3><p>{item.body}</p></li>
+    );
+  })}</ol>;
 }
 
 export function QuoteCard({ quote }) {

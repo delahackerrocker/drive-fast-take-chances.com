@@ -73,8 +73,8 @@ const engagements = [
 const process = [
   { title: "I Start With the Experience", body: "Before choosing a framework or drawing a polished screen, I identify what the player, user, or customer should understand, feel, and be able to do." },
   { title: "I Prototype the Dangerous Part", body: "Every project has one assumption that can quietly ruin the rest. I build it early enough to learn before the project becomes expensive to change." },
-  { title: "Design and Implementation Stay in the Same Loop", body: "I move from interaction design to technical design to working code without throwing the idea over a wall and hoping it survives." },
-  { title: "No Theater, No Unnecessary Architecture", body: "I build the smallest honest version that proves the experience, document the decisions that matter, and leave the system understandable." },
+  { title: "Design and Implementation in One Loop", body: "I move from interaction design to technical design to working code without throwing the idea over a wall and hoping it survives." },
+  { title: ["No Theater,", "No Unnecessary Architecture"], body: "I build the smallest honest version that proves the experience, document the decisions that matter, and leave the system understandable." },
 ];
 
 export const homePage = {
@@ -86,7 +86,7 @@ export const homePage = {
   proof: [
     { label: "5 Shipped Releases", value: "Call of Duty", body: "Credits across the Modern Warfare and Warzone era.", note: "AAA · Live Service · Player-Facing UX" },
     { label: "UX + Code", value: "One Loop", body: "One person from interaction model through working implementation.", note: "Design · Prototype · Build" },
-    { label: "Major Organizations", value: "Google · NBA · USAF", body: "Immersive and interactive work delivered before Call of Duty.", note: "VR · AR · Experiential" },
+    { label: "Big Brands", value: "Google · NBA · USAF", body: "Immersive and interactive work delivered before Call of Duty.", note: "VR · AR · Experiential" },
     { label: "AAA → Indie", value: "End to End", body: "Large-team production judgment applied to complete products and systems.", note: "Systems · Tools · Worldbuilding" },
     { label: "Current Build", value: "GR1M01RE", body: "A city-scale tactical RPG with combat, magic, hacking, procedural spaces, and developer tooling.", note: "Unity 6.5 · Active Development" },
   ],
@@ -103,7 +103,7 @@ export const homePage = {
   products,
   profile: {
     eyebrow: "Who You’d Be Working With",
-    title: "I’m Steven de la Torre — UX Designer, Game Developer, and Agentic Builder.",
+    title: ["I’m Steven de la Torre", "UX Designer, Game Developer, and Agentic Builder."],
     body: "Based in Columbus, Ohio, I spent years designing player-facing systems for Call of Duty and previously shipped immersive work for Google, the NBA, and the U.S. Air Force. Today I build an indie tactical RPG in Unity, web products with clients and partners, and AI-assisted workflows. I’m at my best when the brief is messy, disciplines overlap, and the experience needs to make sense — not merely function.",
   },
   process,

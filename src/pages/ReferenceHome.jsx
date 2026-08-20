@@ -48,8 +48,11 @@ export default function ReferenceHome({ navigate }) {
         <div className="product-grid">{homePage.products.map((product) => <ProductCard key={product.title} product={product} />)}</div>
       </section>
       <section className="section section--profile shell">
-        <ProfileBlock profile={homePage.profile} />
-        <div className="profile-story-link"><HardButton href="/about" navigate={navigate} tone="plain">Read the Full Story →</HardButton></div>
+        <ProfileBlock
+          profile={homePage.profile}
+          cta={{ href: "/about", label: "Read the Full Story →" }}
+          navigate={navigate}
+        />
       </section>
       <section className="section shell">
         <SectionIntro eyebrow="How I Work" title="What Working With Me Looks Like." />
